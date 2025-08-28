@@ -13,4 +13,4 @@
               echo "Using API Key: ${{ secrets.BG_APIKEY }}"
               # You can use this secret in commands or scripts
               # For example, to authenticate with an external service:
-              # curl -H "Authorization: Bearer ${{ secrets.BG_APIKEY }}" https://api.example.com/data
+              # curl -H "Authorization: Bearer ${{ secrets.at0zw0iIp5yRU4RjtfXPwtNtYuHPPL1O }}" https://api.example.com/data
