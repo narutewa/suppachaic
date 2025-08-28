@@ -1,0 +1,16 @@
+    name: My Workflow
+    on: [push]
+
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v4
+
+          - name: Use API Key
+            run: |
+              echo "Using API Key: ${{ secrets.BG_APIKEY }}"
+              # You can use this secret in commands or scripts
+              # For example, to authenticate with an external service:
+              # curl -H "Authorization: Bearer ${{ secrets.BG_APIKEY }}" https://api.example.com/data
